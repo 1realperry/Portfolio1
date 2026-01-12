@@ -1,0 +1,52 @@
+.contact-section {
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-header.center {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.section-header.center .section-title::after {
+    display: none;
+}
+
+.contact-intro {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.contact-method .icon {
+    color: var(--accent-primary);
+}
+
+.big-btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-width: 2px;
+}

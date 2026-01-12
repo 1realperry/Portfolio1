@@ -1,0 +1,76 @@
+.experience-section {
+    padding: 100px 0;
+}
+
+.experience-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.group-title {
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--accent-primary);
+    padding-left: 1rem;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+    border-left: 2px solid var(--bg-secondary);
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -6px;
+    /* center on line */
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--accent-primary);
+}
+
+.timeline-content {
+    /* card style or plain? plain is cleaner here */
+}
+
+.role {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.company-info {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.company-info .company {
+    color: var(--accent-secondary);
+}
+
+.company-info .duration::before {
+    content: " | ";
+    color: var(--text-secondary);
+}
+
+.description {
+    color: var(--text-secondary);
+}
