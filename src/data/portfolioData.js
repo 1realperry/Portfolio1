@@ -28,7 +28,7 @@ export const personalDetails = {
         },
         {
             platform: "LinkedIn",
-            url: "https://www.linkedin.com/in/samuel-otoo-essilfie",
+            url: "https://www.linkedin.com/in/samuel-otoo-essilfie-411068250",
             icon: Linkedin
         },
         {
