@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import ThemeToggle from './ThemeToggle';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -89,7 +90,7 @@ const Navbar = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
-                        SO<span>.</span>
+                        SOE<span>.</span>
                     </motion.a>
 
                     {/* Desktop Menu */}
@@ -116,6 +117,9 @@ const Navbar = () => {
                             >
                                 Get In Touch
                             </motion.a>
+                        </li>
+                        <li>
+                            <ThemeToggle />
                         </li>
                     </ul>
 
@@ -160,6 +164,9 @@ const Navbar = () => {
                                 >
                                     <X size={28} />
                                 </motion.button>
+                            </div>
+                            <div className="mobile-menu-actions" style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
+                                <ThemeToggle />
                             </div>
                             <ul className="mobile-menu-links">
                                 {navLinks.map((link, index) => (

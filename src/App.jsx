@@ -7,9 +7,12 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import CustomCursor from './components/CustomCursor';
+
 function App() {
   return (
     <div className="app-container">
+      <CustomCursor />
       <Navbar />
       <main>
         <Hero />
