@@ -14,7 +14,7 @@ const Navbar = () => {
             setScrolled(window.scrollY > 50);
 
             // Detect active section
-            const sections = ['about', 'skills', 'projects', 'experience', 'contact'];
+            const sections = ['about', 'skills', 'projects', 'github', 'experience', 'contact'];
             for (const section of sections) {
                 const element = document.getElementById(section);
                 if (element) {
@@ -46,6 +46,7 @@ const Navbar = () => {
         { name: 'About', href: '#about' },
         { name: 'Skills', href: '#skills' },
         { name: 'Projects', href: '#projects' },
+        { name: 'GitHub', href: '#github' },
         { name: 'Experience', href: '#experience' },
         { name: 'Contact', href: '#contact' },
     ];
@@ -85,10 +86,10 @@ const Navbar = () => {
             <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
                 <div className="nav-container">
                     <motion.a
-                        href="#"
+                        href="#home"
                         className="logo"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
+                        whileHover={{ scale: 1.02 }}
+                        whileTap={{ scale: 0.98 }}
                     >
                         SOE<span>.</span>
                     </motion.a>

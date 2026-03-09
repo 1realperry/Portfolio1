@@ -3,8 +3,7 @@ import { personalDetails } from '../data/portfolioData';
 import './About.css';
 
 const About = () => {
-    // LinkedIn profile image URL
-    const profileImageUrl = "https://media.licdn.com/dms/image/v2/D4D03AQH41c65D_gcnQ/profile-displayphoto-scale_200_200/B4DZs3XeY3GwAY-/0/1766160460808?e=1769644800&v=beta&t=o2fNFeoIaip9t10DqoTdlTejgaXGy-l26zkvrf50Gvk";
+    const profileImageUrl = "/IMG_2904.JPG";
 
     return (
         <section id="about" className="about-section">
