@@ -82,8 +82,8 @@
     gap: 0.35rem;
     color: var(--text-secondary);
     font-weight: 500;
-    font-size: 0.875rem;
-    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 6px;
     transition: all 0.2s ease;
     position: relative;
@@ -124,7 +124,7 @@
 }
 
 .nav-link.active {
-    color: var(--text-primary);
+    color: var(--accent-primary);
     font-weight: 600;
 }
 

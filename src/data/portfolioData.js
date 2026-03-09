@@ -19,7 +19,7 @@ export const personalDetails = {
     tagline: "Building intuitive web interfaces and transforming data into actionable insights.",
     email: "samotooessilfie@gmail.com",
     phone: "+233 59 2269 600 || +233 53 8727 883",
-    about: "I am an aspiring Data Scientist and Full Stack Developer with a strong focus on frontend development and data analytics. I am passionate about bridging modern web development with data-driven decision-making and I am always open to learning new tools and frameworks.",
+    about: "Frontend Developer & Data Analyst passionate about building responsive web interfaces and turning data into useful insights.",
     socials: [
         {
             platform: "GitHub",

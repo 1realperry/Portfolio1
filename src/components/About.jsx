@@ -26,27 +26,25 @@ const About = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: 0.2 }}
                     >
-                        <p>{personalDetails.about}</p>
-                        <p>
-                            My journey started with a fascination for how things work on the web, which led me to explore frontend technologies.
-                            As I delved deeper, I realized the power of data in driving decisions, prompting me to acquire skills in data analytics.
+                        <p className="about-lead">
+                            I'm a <strong>Frontend Developer & Data Analyst</strong> passionate about building responsive web interfaces and turning data into useful insights.
                         </p>
                         <p>
-                            Today, I enjoy building seamless user interfaces while also having the ability to crunch numbers and visualize trends.
+                            I enjoy creating clean user experiences, working with modern web tools like React and Vue.js, and using analytics to support better decisions. My background combines web development, problem-solving, and hands-on experience with data tools.
                         </p>
 
                         <div className="about-highlights">
                             <div className="highlight-item">
                                 <span className="highlight-number">2+</span>
-                                <span className="highlight-label">Years Learning</span>
+                                <span className="highlight-label">Years of Learning</span>
                             </div>
                             <div className="highlight-item">
-                                <span className="highlight-number">5+</span>
+                                <span className="highlight-number">6+</span>
                                 <span className="highlight-label">Projects Built</span>
                             </div>
                             <div className="highlight-item">
                                 <span className="highlight-number">2</span>
-                                <span className="highlight-label">Internship</span>
+                                <span className="highlight-label">Internship Experiences</span>
                             </div>
                         </div>
                     </motion.div>
@@ -68,7 +66,6 @@ const About = () => {
                                 alt="Samuel Otoo Essilfie"
                                 className="profile-image"
                             />
-                            <div className="image-overlay"></div>
                             <div className="image-border"></div>
                         </motion.div>
                     </motion.div>
